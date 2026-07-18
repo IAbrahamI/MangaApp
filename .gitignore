@@ -1,16 +1,26 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
+# Build results
 /build
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+
+# IDE settings
+.idea/
+*.iml
+.gradle
+/local.properties
+
+# Android Studio local files
+/.idea/caches
+/.idea/libraries
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Project-specific ignores
 .artifacts/
+.kotlin/
